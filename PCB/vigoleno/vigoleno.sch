@@ -4474,7 +4474,7 @@ U 1 1 5E8FB690
 P 20400 2850
 F 0 "DEBUG1" H 20480 2892 50  0000 L CNN
 F 1 "Conn_01x03" H 20480 2801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 20400 2850 50  0001 C CNN
+F 2 "Connector_Molex:Molex_CLIK-Mate_502585-0370_1x03-1MP_P1.50mm_Horizontal" H 20400 2850 50  0001 C CNN
 F 3 "~" H 20400 2850 50  0001 C CNN
 	1    20400 2850
 	1    0    0    -1  
@@ -5632,7 +5632,7 @@ Wire Wire Line
 Wire Wire Line
 	20850 9600 21550 9600
 Text Label 19650 7800 0    50   ~ 0
-REST-N
+RESET-N
 Text Label 19650 11200 0    50   ~ 0
 PIN4_TWI0-SCK
 Text Label 21550 11200 2    50   ~ 0
@@ -6371,6 +6371,8 @@ Wire Wire Line
 	3150 10800 3150 10850
 Wire Wire Line
 	3400 10950 3400 10800
+Text Label 19650 8900 0    50   ~ 0
+PIN28_NDQS
 Wire Wire Line
 	2350 11250 3600 11250
 Wire Bus Line
@@ -6389,6 +6391,4 @@ Wire Bus Line
 	9800 1350 9800 6350
 Wire Bus Line
 	10950 1250 10950 6250
-Text Label 19650 8900 0    50   ~ 0
-PIN28_NDQS
 $EndSCHEMATC
