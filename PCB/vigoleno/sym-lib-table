@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name vigoleno-rescue)(type Legacy)(uri ${KIPRJMOD}/vigoleno-rescue.lib)(options "")(descr ""))
 )

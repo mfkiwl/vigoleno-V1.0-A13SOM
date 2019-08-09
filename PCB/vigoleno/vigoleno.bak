@@ -517,7 +517,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 2850 4100 2850
 $Comp
-L Device:Crystal_GND24_Small Y1
+L vigoleno-rescue:Crystal_GND24_Small-Device Y1
 U 1 1 5BC34E7A
 P 4750 5000
 F 0 "Y1" V 4750 5500 50  0000 L CNN
@@ -5637,41 +5637,41 @@ Text Label 19650 11200 0    50   ~ 0
 PIN4_TWI0-SCK
 Text Label 21550 11200 2    50   ~ 0
 PIN5_TWI0-SDA
-Text Label 19650 9600 0    50   ~ 0
+Text Label 21550 10700 2    50   ~ 0
 PIN6_PWM0
-Text Label 21550 9600 2    50   ~ 0
+Text Label 21550 10600 2    50   ~ 0
 PIN7
-Text Label 19650 9500 0    50   ~ 0
+Text Label 21550 10500 2    50   ~ 0
 PIN8
-Text Label 21550 9500 2    50   ~ 0
+Text Label 21550 10400 2    50   ~ 0
 PIN9
-Text Label 19650 9400 0    50   ~ 0
+Text Label 21550 10300 2    50   ~ 0
 PIN10_TWI1-SCK
-Text Label 19650 9300 0    50   ~ 0
+Text Label 21550 10200 2    50   ~ 0
 PIN11_TWI1-SDA
-Text Label 19650 8200 0    50   ~ 0
+Text Label 21550 10100 2    50   ~ 0
 PIN15_NCE1
-Text Label 21550 8900 2    50   ~ 0
+Text Label 21550 10000 2    50   ~ 0
 PIN19_NRB1
-Text Label 21550 9000 2    50   ~ 0
+Text Label 21550 9800 2    50   ~ 0
 PIN29
-Text Label 19650 9000 0    50   ~ 0
+Text Label 21550 9700 2    50   ~ 0
 PIN30
-Text Label 21550 8800 2    50   ~ 0
+Text Label 21550 9600 2    50   ~ 0
 PIN31
-Text Label 19650 8800 0    50   ~ 0
+Text Label 21550 9500 2    50   ~ 0
 PIN32
-Text Label 21550 8700 2    50   ~ 0
+Text Label 21550 9400 2    50   ~ 0
 PIN33
-Text Label 19650 8700 0    50   ~ 0
+Text Label 21550 9300 2    50   ~ 0
 PIN34
-Text Label 21550 8600 2    50   ~ 0
+Text Label 21550 9200 2    50   ~ 0
 PIN35
-Text Label 21550 8100 2    50   ~ 0
+Text Label 21550 9000 2    50   ~ 0
 PIN37_LED1
-Text Label 19650 8100 0    50   ~ 0
+Text Label 21550 8900 2    50   ~ 0
 PIN38_VGA-DIS
-Text Label 21550 8000 2    50   ~ 0
+Text Label 21550 8800 2    50   ~ 0
 PIN39_USBH-EN
 Text Label 21550 7900 2    50   ~ 0
 NMI-N
@@ -5726,27 +5726,27 @@ Entry Wire Line
 	12800 12400 12900 12500
 Wire Wire Line
 	12900 12300 13850 12300
-Text Label 21550 9900 2    50   ~ 0
+Text Label 19650 9500 0    50   ~ 0
 LCD-D18
-Text Label 21550 9800 2    50   ~ 0
+Text Label 19650 9300 0    50   ~ 0
 LCD-D20
-Text Label 21550 9700 2    50   ~ 0
+Text Label 19650 9100 0    50   ~ 0
 LCD-D22
-Text Label 21550 10200 2    50   ~ 0
+Text Label 19650 10100 0    50   ~ 0
 LCD-D10
-Text Label 21550 10100 2    50   ~ 0
+Text Label 19650 9900 0    50   ~ 0
 LCD-D12
-Text Label 21550 10000 2    50   ~ 0
+Text Label 19650 9700 0    50   ~ 0
 LCD-D14
-Text Label 19650 10500 0    50   ~ 0
+Text Label 19650 10700 0    50   ~ 0
 LCD-D2
-Text Label 19650 10400 0    50   ~ 0
+Text Label 19650 10500 0    50   ~ 0
 LCD-D4
 Text Label 19650 10300 0    50   ~ 0
 LCD-D6
-Text Label 19650 10600 0    50   ~ 0
+Text Label 19650 8700 0    50   ~ 0
 LCD-HSYNC
-Text Label 19650 10700 0    50   ~ 0
+Text Label 19650 8900 0    50   ~ 0
 LCD-CLK
 Text Label 19650 10800 0    50   ~ 0
 TPX1
@@ -5756,27 +5756,27 @@ Text Label 21550 10900 2    50   ~ 0
 TPY2
 Text Label 21550 10800 2    50   ~ 0
 TPX2
-Text Label 21550 10700 2    50   ~ 0
+Text Label 19650 8800 0    50   ~ 0
 LCD-DE
-Text Label 21550 10600 2    50   ~ 0
+Text Label 19650 8600 0    50   ~ 0
 LCD-VSYNC
-Text Label 21550 10300 2    50   ~ 0
-LCD-D7
-Text Label 21550 10400 2    50   ~ 0
-LCD-D5
-Text Label 21550 10500 2    50   ~ 0
-LCD-D3
-Text Label 19650 10000 0    50   ~ 0
-LCD-D15
-Text Label 19650 10100 0    50   ~ 0
-LCD-D13
 Text Label 19650 10200 0    50   ~ 0
-LCD-D11
-Text Label 19650 9700 0    50   ~ 0
-LCD-D23
+LCD-D7
+Text Label 19650 10400 0    50   ~ 0
+LCD-D5
+Text Label 19650 10600 0    50   ~ 0
+LCD-D3
+Text Label 19650 9600 0    50   ~ 0
+LCD-D15
 Text Label 19650 9800 0    50   ~ 0
+LCD-D13
+Text Label 19650 10000 0    50   ~ 0
+LCD-D11
+Text Label 19650 9000 0    50   ~ 0
+LCD-D23
+Text Label 19650 9200 0    50   ~ 0
 LCD-D21
-Text Label 19650 9900 0    50   ~ 0
+Text Label 19650 9400 0    50   ~ 0
 LCD-D19
 Text Label 21550 8400 2    50   ~ 0
 UDP0
@@ -5788,25 +5788,25 @@ Text Label 19650 8500 0    50   ~ 0
 UDM1
 Text Label 19650 8000 0    50   ~ 0
 LRADC
-Text Label 21550 9200 2    50   ~ 0
+Text Label 21550 8200 2    50   ~ 0
 SPI2-CS0
-Text Label 19650 9200 0    50   ~ 0
+Text Label 21550 8300 2    50   ~ 0
 SPI2-CLK
-Text Label 21550 9100 2    50   ~ 0
+Text Label 19650 8200 0    50   ~ 0
 SPI2-MOSI
-Text Label 19650 9100 0    50   ~ 0
+Text Label 19650 8300 0    50   ~ 0
 SPI2-MISO
 Text Label 19650 7900 0    50   ~ 0
 UBOOT
-Text Label 21550 9400 2    50   ~ 0
+Text Label 21550 8100 2    50   ~ 0
 TWI2-SDA
-Text Label 21550 9300 2    50   ~ 0
+Text Label 21550 8000 2    50   ~ 0
 TWI2-SCK
-Text Label 21550 8200 2    50   ~ 0
+Text Label 21550 8700 2    50   ~ 0
 USB0-DRV
-Text Label 21550 8300 2    50   ~ 0
+Text Label 19650 8100 0    50   ~ 0
 USB0-IDDET
-Text Label 19650 8300 0    50   ~ 0
+Text Label 21550 8600 2    50   ~ 0
 USB0-VBUSDET
 $Comp
 L Device:C_Small C67
@@ -5829,7 +5829,7 @@ Wire Wire Line
 Connection ~ 13150 9150
 Wire Wire Line
 	13150 9150 13900 9150
-Text Label 19650 8600 0    50   ~ 0
+Text Label 21550 9100 2    50   ~ 0
 PIN36
 Text Label 19650 11100 0    50   ~ 0
 SDC0-SCK
@@ -6270,7 +6270,7 @@ Text Label 4300 1250 0    50   ~ 0
 +1.2V-CPU
 Text Label 4800 1250 0    50   ~ 0
 +1.2V-INT
-Text Label 5200 1250 0    50   ~ 0
+Text Label 17050 1350 0    50   ~ 0
 +1.5V
 Text Label 5450 1250 0    50   ~ 0
 +3.0VA
@@ -6371,7 +6371,7 @@ Wire Wire Line
 	3150 10800 3150 10850
 Wire Wire Line
 	3400 10950 3400 10800
-Text Label 19650 8900 0    50   ~ 0
+Text Label 21550 9900 2    50   ~ 0
 PIN28_NDQS
 Wire Wire Line
 	2350 11250 3600 11250
